@@ -72,6 +72,11 @@ html::-webkit-scrollbar-track {
     margin-bottom: 10rem;
 }
 
+.padding-y {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
 .accordion-img img {
     height: 215px;
 }
