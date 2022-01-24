@@ -8,6 +8,20 @@
     scroll-behavior: smooth;
 }
 
+.border-extra {
+    border-radius: 3rem;
+}
+
+.border-lg {
+    border-radius: 2rem; 
+}
+
+.sale-tag {
+    position: absolute;
+    top: -12px;
+    right: 30px;
+}
+
 *::selection {
     color: white;
     background-color: orangered;
