@@ -22,9 +22,13 @@
     right: 30px;
 }
 
+.text-orange-red {
+    color: #ff5e00;
+}
+
 *::selection {
     color: white;
-    background-color: orangered;
+    background-color: #ff5e00;
 }
 
 html::-webkit-scrollbar {
@@ -32,7 +36,7 @@ html::-webkit-scrollbar {
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: rgb(68, 68, 68);
+    background-color: #ff5e00;
 }
 
 html::-webkit-scrollbar-track {
@@ -57,8 +61,8 @@ html::-webkit-scrollbar-track {
 }
 
 .img-area img {
-    width: 150px;
-    height: 150px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     border: 0.3rem solid #f8f8f8;
 }
@@ -66,4 +70,17 @@ html::-webkit-scrollbar-track {
 .margin-y {
     margin-top: 10rem;
     margin-bottom: 10rem;
+}
+
+.accordion-img img {
+    height: 215px;
+}
+
+.footer-area-logo img {
+    width: 150px;
+}
+
+
+.accordion-hover:hover {
+    cursor: crosshair;
 }
