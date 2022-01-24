@@ -26,6 +26,10 @@
     color: #ff5e00 !important;
 }
 
+.bg-orange-red {
+    background-color: #ff5e00;
+}
+
 *::selection {
     color: white;
     background-color: #ff5e00;
