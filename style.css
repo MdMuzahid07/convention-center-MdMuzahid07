@@ -8,16 +8,21 @@
     scroll-behavior: smooth;
 }
 
+*::selection {
+    color: white;
+    background-color: orangered;
+}
+
 html::-webkit-scrollbar {
     width: 0.7rem;
 }
 
 html::-webkit-scrollbar-thumb {
-    background-color: red;
+    background-color: rgb(68, 68, 68);
 }
 
 html::-webkit-scrollbar-track {
-    background-color: rgb(167, 99, 21);
+    background-color: rgb(0, 0, 0);
 }
 
 .img-height {
