@@ -41,4 +41,29 @@ html::-webkit-scrollbar-track {
 
 .img-height {
     height: 80vh;
-} /***slider img height***/
+} /***image slider img height***/
+
+.bg-light-grey {
+    background-color: rgb(241, 241, 241);
+}
+
+.single-box {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.img-area img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 0.3rem solid #f8f8f8;
+}
+
+.margin-y {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
